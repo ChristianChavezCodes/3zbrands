@@ -1,4 +1,3 @@
-import styles from './dataDisplay.module.scss'
 import { useSelector} from 'react-redux';
 
 const DataDisplay = () => {
