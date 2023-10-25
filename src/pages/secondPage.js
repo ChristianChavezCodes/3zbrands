@@ -16,7 +16,7 @@ const Second = () => {
               {isSubmitted? null: <DataDisplay />}
             </div>
             <div className = {styles.page__boxOne__boxTwo__superSecretMessage}>
-              {isSubmitted? <h1>Thank you very much for taking the time to interview me! Just having the opportunity to demonstrate what I know means a lot.</h1>: null}
+              {isSubmitted? <h1>Thank you very much for taking the time to look at this project! It covers react fundamentals</h1>: null}
             </div>
             {isSubmitted? null :<button className = {styles.page__boxOne__boxTwo__button} onClick = {handleSuperSecretButton}>Secret button... you have been warned</button>}
             <Link href="/" className = {styles.page__boxOne__boxTwo__link}>Go back</Link>
